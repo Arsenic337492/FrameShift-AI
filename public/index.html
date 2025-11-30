@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel='stylesheet' href="style.css">
+    </head>
+
+    <body class="dashboard">
+        <div class="dashboardContainer">
+            <aside class="sidebar">
+                <div class="sidebarMenu">
+                    <div class="menuItem active" data-filter="all">
+                        <span>All Projects</span>
+                    </div>
+                    <div class="menuItem" data-filter="favorites">
+                        <span>Favorites</span>
+                    </div>
+                    <div class="menuItem" data-filter="trash">
+                        <span>Trash Bin</span>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="dashboardMain">
+                <div class="projectsGrid">
+                    <div class="projectCard createCard">
+                        <div class="createIcon">+</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
